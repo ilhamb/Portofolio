@@ -96,22 +96,43 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Start Global Classes */
 
+/* End Global Classes */
 
+/* Start Common Rules */
 
+/* End Common Rules */
 
+/* Start Header Style */
+.right-nav {
+  justify-content: flex-end;
+}
+/* End Header Style */
 
+/* Start Footer Style */
 
+/* End Footer Style */
 
+/* Start Main Style */
 
+/* End Main Style */
 
+/* Start About Style */
 
+/* End About Style */
 
+/* Start Projects Style */
 
+/* End Projects Style */
 
+/* Start tdBlog Style */
 
+/* End tdBlog Style */
 
+/* Start Contact Style */
 
+/* End Contact Style */
 
 /* ==========================================================================
    Helper classes

@@ -101,24 +101,59 @@ textarea {
   background-color: #977773;
 }
 
-.btn-dark {
+.btn-center {
     color: #fff;
     background-color: #977773;
     border-color: #fff;
-    border-radius: 0px solid white;
+    display: block;
+    align-items: center;
+    width: 200px;
 }
+
+.social {
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+
+
 /* End Global Classes */
 
 /* Start Common Rules */
+body {
+  background-color: #977773;
+}
+
 h1 {
   font-family: 'Lobster', cursive;
+  text-align: center;
 }
 
 main {
    background-color: #977773;
-   padding: 2rem 1rem;
+   padding: 3rem 2rem;
    display: flex;
    justify-content: center;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+  text-align: center;
 }
 /* End Common Rules */
 
@@ -129,7 +164,21 @@ main {
 /* End Header Style */
 
 /* Start Footer Style */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
+.fa:hover {
+    color: black;
+    text-decoration: none;
+}
 /* End Footer Style */
 
 /* Start Main Style */

@@ -123,6 +123,11 @@ textarea {
   height: 20px;
 }
 
+.about-list {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
 /* End Global Classes */
 
 /* Start Common Rules */
